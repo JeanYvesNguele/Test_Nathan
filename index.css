@@ -1,0 +1,151 @@
+#form1
+{
+margin-left:420px;
+ text-align:center;
+ margin-top:-95px;
+}
+
+#formbout1
+{
+
+ text-align:center;
+ margin-top:-195px;
+}
+
+.lien 
+{
+ text-decoration:none; 
+ text-align:right;
+ margin-left:5px;
+}
+
+.L_position
+{
+ margin-left:400px;
+}
+
+.banniere_image
+{
+height:70em;
+background: url("ban.jpg");
+background-repeat: no-repeat; 
+}
+#form_position
+{
+ text-align: center;
+
+}
+.choix_service, .form2
+{
+ text-align: center;
+ font-family:Comic Sans MS, serif;
+ font-size:50px;
+ margin-top:1px;
+ color:rgb(85,50,116);
+}
+
+.choix_service_2
+{
+ text-align: center;
+ font-family:Comic Sans MS, serif;
+ font-size:50px;
+ margin-top:1px;
+ color:rgb(85,50,116);
+}
+
+.btn_btn
+{
+  margin-left:280px;
+  text-decoration:none;
+}
+
+#btn_droit
+{
+  margin-left:490px; 
+}
+
+.form_position
+{
+margin-left:280px
+}
+
+#bloc_page
+{
+width: 1200px;
+margin: auto;
+}
+
+input 
+{
+height: 38px;
+width:670px;
+border-radius:5px;
+border-color:#483D8B;
+}
+textarea
+{
+height: 88px;
+width:670px;
+border-radius:5px;
+border-color:#483D8B;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited 
+{
+    background-color: #483D8B;
+}
+
+#lefttab
+{
+ margin-right:200px;
+ margin-top:35px; 
+}
+.couleur
+{
+   background-color: #2E135E;
+}
+
+#titrecoul
+{
+   color:white;
+}
+
+.Total
+{
+margin-left:300px;
+}
+
+.posiDate 
+{
+display:flex;
+margin-left:350px;   
+}
+
+.boxform
+{
+margin-left:350px;
+border:1px solid #2E135E;
+background-color:#2E135E;
+margin-right:260px;
+}
+
+.boxtext
+{
+font-size:18px;
+color:white;
+text-align:center;   
+}
+
+#Valider
+{
+text-align:center;  
+}
+.form3
+{
+margin-left:270px; 	 
+}
+
+.form_position3
+{
+margin-left:350px; 	 
+}

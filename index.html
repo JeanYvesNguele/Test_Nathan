@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	   <meta charset="UTF-8">
+	   <title>La Petite Coursière</title>
+	   <link rel="stylesheet" href="index.css">
+	   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	  
+	</head>
+	<body>
+	<div id="bloc_page">
+		<header>
+			  <nav class="L_position">
+				<a class="lien" href="#">Acceuil</a>
+				<a class="lien" href="#">Commander une course</a>
+				<a class="lien" href="#">Pourquoi-nous?</a>
+				<a class="lien" href="#">Nos services</a>
+				<a class="lien" href="#">Témoignages</a>
+				<a class="lien" href="#">Nous contacter</a>
+				<a class="lien" href="#">Se connecter</a>
+			  </nav>
+			<div>
+				<img src="ban.jpg" width="1200px" height="800px" />
+			</div>
+				<form class="row g-3">
+					  <div class="col-auto" id="form1">
+						<label for="inputPassword2" class="visually-hidden" ></label>
+						<input type="password" class="form-control" id="inputPassword2">
+					  </div>
+					  <div class="col-auto">
+						<button type="submit" class="btn btn-primary mb-3" id="formbout1">Commander</button>
+					  </div>
+				</form>
+		</header>
+		<section>
+			<h1 class="choix_service">Quel service souhaitez-vous</h1>
+			<h1 class="choix_service_2">utiliser</h1>
+			<div class="btn_btn">
+				<a href="#" class="btn btn-primary">Course</a>
+				<a href="#" class="btn btn-primary"id="btn_droit">Livraisons</a>
+				
+			</div>
+			<br />
+			<div class="form_position">
+				<form method="post">
+					<p>
+					  <label for="Nom et Prénom" class="Nom et Prénom">Nom et Prénom :</label>
+					  <br />
+					  <input type="text" name="Nom et Prénom" id="Nom et Prénom" placeholder="Nom et Prénom">
+								<br />
+								<br />
+						<label for="CNI">Numéro CNI :</label>
+							<br />
+							<input type="text" name="cni" id="cni" placeholder="1234567890"/>
+								<br />
+								<br />
+						<label for="Numéro Téléphone">Numéro Téléphone:</label>
+							<br />
+							<input type="text" name="Numéro Téléphone" id="Numéro Téléphone" placeholder="Numéro Téléphone"/>
+								<br />
+								<br />
+						<label for="Adresse de Réception">Adresse de Réception:</label>
+							<br />
+							<input type="text" name="Adresse de Réception" id="Adresse de Réception" placeholder="Touristique Mvan"/>
+								<br />
+								<br />		
+						<label for="Adresse de Destination">Adresse de Destination:</label>
+							<br />
+							<input type="text" name="Adresse de Destination" id="Adresse de Destination" placeholder="Etoa-Meki"/>
+								<br />
+								<br />
+						<label for="Date Heure et Lieu de Livraison">Date Heure et Lieu de Livraison :</label>
+							<br />
+							<input type="text" name="Date Heure et Lieu de Livraison" id="Date Heure et Lieu de Livraison" placeholder="19 Mar 23/ 17h30 /Etoa-Meki"/>
+								<br />
+								<br />
+						<label for="Contact Secondaire">Contact Secondaire :</label>
+							<br />
+							<input type="text" name="Contact Secondaire" id="Contact Secondaire" placeholder="Contact Secondaire"/>
+								<br />			
+					</p>	
+				</form>
+			</div>
+		</section>
+		<br />
+		<br />
+		<section>	
+			<div>
+				<img src="pq.png" width="1200px" height="800px" />
+			</div>
+		</section>
+		<section>	
+			<div>
+				<img src="services.png" width="1220px" height="400px" />
+			</div>
+		</section>
+		<section>	
+			<div>
+				<img src="tem.png" width="1200px" height="800px" />
+			</div>
+		</section>
+		<section>	
+			<h1 class="form2">Contactez-nous</h1>
+			<div class="form_position">
+				<form method="post">
+					<p>
+					  <label for="Nom et Prénom" class="Nom et Prénom">Nom et Prénom :</label>
+					  <br />
+					  <input type="text" name="Nom et Prénom" id="Nom et Prénom" placeholder="Nom et Prénom">
+								<br />
+								<br />
+						<label for="mail">Adresse Mail :</label>
+							<br />
+							<input type="text" name="mail" id="mail" placeholder="Adresse mail"/>
+								<br />
+								<br />
+						<label for="Numéro Téléphone">Numéro Téléphone:</label>
+							<br />
+							<input type="text" name="Numéro Téléphone" id="Numéro Téléphone" placeholder="Numéro Téléphone"/>
+								<br />
+								<br />
+						<label for="Message">Message:</label>
+							<br />
+							<textarea id="message" name="message">		  
+							
+							</textarea>
+								<br />
+								<br />
+						<a href="#" class="btn btn-primary">Envoyer</a>		
+					</p>	
+				</form>
+				<br />
+				
+		</section>
+		<section>
+			<img src="ft.png" width="1200px" height="300px" />
+		</section>
+		<section>
+			<h1 class="form2">Remplissez votre</h1>
+			<h1 class="form2">panier</h1>
+			<div class="form_position" id="lefttab">
+			<table class="table table-bordered border-primary">
+				<thead>
+					<tr class="couleur">
+					  <th id="titrecoul" scope="col" width="12px">Produits</th>
+					  <th id="titrecoul" scope="col"width="250px">Quantités</th>
+					  <th id="titrecoul" scope="col" width="12px">Total</th>
+					  
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td>Jacob</td>
+					  <td>Jacob</td>
+					  
+					</tr>
+					<tr>
+					  <th scope="row"></th>
+					  <td >Jacob</td>
+					  <td>Thornton</td>
+					  
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+			</div>
+			<div class="posiDate">
+				<h3>Date</h3> <h3 class="Total">Total.............................................</h3>
+			</div>
+			<br />
+			<br />
+			<div class="boxform">
+				<h3 class="boxtext">NB : Le montant total des achats à faire doit être versé par le client par le mode de paiement de son choix. Le 
+						versement du montant d’achat marque l’accord des conditons de service et le début du contrat. Les frais de 
+						livraisons et le montant des commissions doivent être au préalablement discutés et validés par le client et la 
+						coursière et payés après la réception du colis par ce dernier. Le paiement de ces montants marque la fin du 
+						contrat.</h3> 
+			</div>
+			<br /><br />
+				<div class="form2">
+					<a href="#" class="btn btn-primary">Valider ma course</a>
+				</div>
+		</section>
+			<br />
+			<br />
+		<section>	
+			<h1 class="form2">Se Connecter</h1>
+			<div class="form_position3">
+				<form method="post">
+					<p>
+					  <label for="Nom et Prénom" class="Nom et Prénom">Nom et Prénom :</label>
+					  <br />
+					  <input type="text" name="Nom et Prénom" id="Nom et Prénom" placeholder="Nom et Prénom">
+								<br />
+								<br />
+						<label for="passwd">Mot de Passe :</label>
+							<br />
+							<input type="text" name="passwd" id="passwd" placeholder="Mot de Passe"/>
+								<br />
+								<br />
+						
+						<div class="form3">
+							<a href="#" class="btn btn-primary">Se Connecter</a>
+						</div>		
+					</p>	
+				</form>
+				<br />
+				
+		</section>
+		
+		</div>
+	</body>
+</html>
+
